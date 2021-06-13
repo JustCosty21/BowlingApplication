@@ -1,0 +1,7 @@
+com\dougestep\bowling\GameManager.class
+com\dougestep\bowling\impl\GameManagerImpl.class
+com\dougestep\bowling\data\Game.class
+com\dougestep\bowling\data\BowlingFrame.class
+com\dougestep\bowling\impl\PrintManagerImpl.class
+com\dougestep\bowling\data\Bowler.class
+com\dougestep\bowling\PrintManager.class

@@ -1,0 +1,22 @@
+apply plugin: "java"
+apply plugin: "maven"
+apply plugin: "checkstyle"
+apply plugin: 'pmd'
+apply plugin: 'jacoco'
+
+group = "dougestep"
+version = 1.5
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+}
+
+dependencies {
+    compile 'com.google.code.findbugs:annotations:3.0.1'
+    compile 'com.google.guava:guava:19.0'
+
+    testCompile 'junit:junit:4.12'
+    testCompile 'com.google.guava:guava:19.0'
+}

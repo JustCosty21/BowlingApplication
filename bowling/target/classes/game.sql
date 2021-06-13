@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS games;
+
+CREATE TABLE games (
+  id INT AUTO_INCREMENT  PRIMARY KEY,
+  game_name VARCHAR(250) NOT NULL,
+  players_no VARCHAR(250) NOT NULL
+);
